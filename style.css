@@ -47,20 +47,21 @@ header{
 .category-item:hover {
   color: black;
 }
+.place {
+  text-align: center;
+  padding-top: 50px;
+}
+img {
+  padding: 0 20px;
+}
 @media screen and (max-width: 900px) {
-  
-   .category {
-     overflow: scroll;
-     white-space: nowrap;
-     background-color: red;
-     width: 700px;
-   }
-   .list {
-     padding-top: 10px;
-   }
-   .category-item {
-     font-size: 14px;
 
-     padding: 10px;
+   .category {
+     display: none;
+   }
+   img {
+     padding: 20px 0;
+     width: 250px;
+     height: 250px;
    }
 }
