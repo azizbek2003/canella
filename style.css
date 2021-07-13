@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 header{
   background-color: rgba(56,54, 55, 1);
@@ -32,6 +33,17 @@ header{
 .name {
   height: 4000px;
 }
+.slogan {
+  text-align: center;
+  padding-top: 80px;
+}
+.slogan-text {
+  font-size: 34px;
+  white-space: pre;
+  padding-top: 20px;
+  font-family: 'Caveat', cursive;
+  color: #b09430;
+}
 .list {
   justify-content: center;
   align-items: center;
@@ -40,9 +52,10 @@ header{
 }
 .category-item {
   text-decoration: none;
-  color: black;
+  color: rgba(56,54, 55, 1);
   font-family: 'Lobster', cursive;
   padding: 0 20px;
+  font-size: 20px;
 }
 .category-item:hover {
   color: black;
@@ -54,7 +67,14 @@ header{
 img {
   padding: 0 20px;
 }
-@media screen and (max-width: 900px) {
+.gallery {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
 
    .category {
      display: none;
@@ -64,4 +84,13 @@ img {
      width: 250px;
      height: 250px;
    }
+
+  .slogan-text {
+    font-size: 16px;
+    white-space: normal;
+    padding: 0 10px;
+    margin-top: 50px;
+
+
+  }
 }
