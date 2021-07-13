@@ -51,6 +51,7 @@ header{
    .category {
      overflow: scroll;
      white-space: nowrap;
+     background-color: red;
    }
    .list {
      padding-top: 10px;
