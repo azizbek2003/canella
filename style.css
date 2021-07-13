@@ -35,7 +35,7 @@ header{
 }
 .slogan {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 .slogan-text {
   font-size: 34px;
@@ -43,6 +43,12 @@ header{
   padding-top: 20px;
   font-family: 'Caveat', cursive;
   color: #b09430;
+}
+.under-text {
+  font-family: 'Bad Script', cursive;
+  font-size: 30px;
+  text-align: right;
+  width: 65%;
 }
 .list {
   justify-content: center;
@@ -64,9 +70,10 @@ header{
   text-align: center;
   padding-top: 50px;
 }
-img {
-  padding: 0 20px;
+.gallery-photo {
+  padding: 20px 20px;
 }
+
 .gallery {
   font-weight: 500;
   font-size: 24px;
@@ -74,23 +81,25 @@ img {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 
    .category {
      display: none;
    }
-   img {
+   .gallery-photo {
      padding: 20px 0;
      width: 250px;
      height: 250px;
    }
 
   .slogan-text {
-    font-size: 16px;
+    font-size: 24px;
     white-space: normal;
     padding: 0 10px;
     margin-top: 50px;
-
-
+  }
+  .under-text {
+    width: 80%;
+    font-size: 30px;
   }
 }
