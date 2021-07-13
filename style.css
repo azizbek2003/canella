@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: rgba(56,54, 55, 1);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+.brand {
+  text-decoration: none;
+  color: white;
+  font-family: 'Bad Script', cursive;
+  font-size: 52px;
+  text-shadow:
+  0 0 10px rgba(255 219 3),
+  0 0 20px rgba(255 219 3);
+  padding: 0 20px;
+
+}
+.about {
+  color: white;
+  padding-top: 40px;
+  font-family: 'Benne', serif;
+  font-size: 22px;
+}
+.brand:hover {
+  color: white;
+}
+.name {
+  height: 4000px;
+}
