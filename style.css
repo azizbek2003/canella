@@ -48,10 +48,12 @@ header{
   color: black;
 }
 @media screen and (max-width: 900px) {
+  
    .category {
      overflow: scroll;
      white-space: nowrap;
      background-color: red;
+     width: 700px;
    }
    .list {
      padding-top: 10px;
